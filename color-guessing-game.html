@@ -8,7 +8,7 @@ Date: 9/30/2023-->
     <title>Color Guessing Game</title>
 </head>
 <body>
-    <h1> Color Guessing Gamne</h1>
+    <h1> Color Guessing Game</h1>
     <button type="button" onclick="runGame()" >Start Game</button>
     <script>
         const COLORS_ARRAY = ['blue', 'cyan', 'gold', 'gray', 'green', 'magenta', 'orange', 'red', 'white', 'yellow'];
@@ -38,7 +38,7 @@ Date: 9/30/2023-->
             if (COLORS_ARRAY.includes(guess)) {
                 let guessIndex = COLORS_ARRAY.indexOf(guess);
                 if (guessIndex > TARGET_INDEX) {
-                    alert("Sorry try again! Your guess is incorrect & its alphabeltically higher than what I'm thinking");
+                    alert("Sorry try again! Your guess is incorrect & its alphabetically higher than what I'm thinking");
                 } else if (TARGET_INDEX > guessIndex) {
                     alert("Sorry try again! Your guess is incorrect & its alphabetically lower than what I'm thinking");
                 } else {
