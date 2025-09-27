@@ -48,7 +48,7 @@ function checkGuess(guess, targetColor) {
 
 1. **Download the game**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/josemsantiago/ColorGuessingGame.git
    cd ColorGuessingGame
    ```
 
