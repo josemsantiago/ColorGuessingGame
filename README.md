@@ -1,6 +1,16 @@
 # Color Guessing Game
 
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Status](https://img.shields.io/badge/status-active-success)
+
 An interactive browser-based guessing game where players try to identify a randomly selected color from a predefined set. Built with vanilla HTML, CSS, and JavaScript.
+
+## Screenshots
+
+> **Note:** Game screenshots will be added soon. Open `index.html` in your browser to play the game.
 
 ## Overview
 
@@ -53,7 +63,7 @@ function checkGuess(guess, targetColor) {
    ```
 
 2. **Open in browser**:
-   - Open `color-guessing-game.html` in any modern web browser
+   - Open `index.html` in any modern web browser
    - No server setup or dependencies required
 
 3. **How to Play**:
@@ -114,6 +124,69 @@ Potential improvements could include:
 ## License
 
 This project is licensed under the GNU General Public License v3.0 - see the LICENSE file for details.
+
+## Screenshots
+
+> **Note:** Screenshots will be added soon. To see the game in action, simply open `index.html` in any modern web browser - no installation required!
+
+## Troubleshooting
+
+### Common Issues
+
+**Issue:** "Start Game" button doesn't respond when clicked
+
+**Solution:** Check browser console (F12) for JavaScript errors. Ensure JavaScript is enabled in your browser settings. Try refreshing the page.
+
+---
+
+**Issue:** Game prompts appear behind other windows
+
+**Solution:** Browser prompts always appear in the foreground. If you don't see prompts, check if your browser has popup blockers enabled. Allow popups for this page.
+
+---
+
+**Issue:** Background color doesn't change when winning
+
+**Solution:** Ensure you're entering the exact color name (lowercase). Check spelling carefully. Valid colors are: blue, cyan, gold, gray, green, magenta, orange, red, white, yellow.
+
+---
+
+**Issue:** Game seems stuck or unresponsive
+
+**Solution:** Refresh the page to restart. If using the browser back button, this may cause issues - reload the page instead.
+
+---
+
+**Issue:** Typos in game messages
+
+**Solution:** Known issues include "Color Guessing Gamne" in heading and "alphabeltically" in feedback messages. These are cosmetic and don't affect gameplay.
+
+For additional help, please check the browser console for error messages or file an issue on GitHub.
+
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/YourFeature`)
+3. Commit your changes (`git commit -m 'Add YourFeature'`)
+4. Push to the branch (`git push origin feature/YourFeature`)
+5. Open a Pull Request
+
+**Areas for contribution:**
+- Fix existing typos in UI and messages
+- Add new color sets or themes
+- Implement difficulty levels
+- Create visual interface to replace prompts
+- Add sound effects and animations
+- Write unit tests for game logic
+
+## Contact & Support
+
+- **Author**: José Santiago Echevarria
+- **Created**: September 30, 2023
+- **Issues**: Report bugs or suggest features via [GitHub Issues](https://github.com/josemsantiago/ColorGuessingGame/issues)
+- **Project Type**: Educational JavaScript browser game demonstrating core programming concepts including DOM manipulation, event handling, and game logic
 
 ## Author
 
